@@ -1,0 +1,71 @@
+60, 75, CPU burst
+135, 1, switch to kernel mode
+136, 22, context saved
+158, 1, find vector 5 in memory position 0x000A
+159, 1, load address 0X048B into the PC
+160, 111, execute ISR for device 5
+271, 1, IRET
+272, 84, CPU burst
+356, 1, switch to kernel mode
+357, 22, context saved
+379, 1, find vector 5 in memory position 0x000A
+380, 1, load address 0X048B into the PC
+381, 211, end of I/O 5: interrupt
+592, 1, IRET
+593, 22, CPU burst
+615, 1, switch to kernel mode
+616, 22, context saved
+638, 1, find vector 10 in memory position 0x0014
+639, 1, load address 0X07B0 into the PC
+640, 111, execute ISR for device 10
+751, 1, IRET
+752, 80, CPU burst
+832, 1, switch to kernel mode
+833, 22, context saved
+855, 1, find vector 10 in memory position 0x0014
+856, 1, load address 0X07B0 into the PC
+857, 564, end of I/O 10: interrupt
+1421, 1, IRET
+1422, 79, CPU burst
+1501, 1, switch to kernel mode
+1502, 22, context saved
+1524, 1, find vector 6 in memory position 0x000C
+1525, 1, load address 0X0639 into the PC
+1526, 111, execute ISR for device 6
+1637, 1, IRET
+1638, 68, CPU burst
+1706, 1, switch to kernel mode
+1707, 22, context saved
+1729, 1, find vector 6 in memory position 0x000C
+1730, 1, load address 0X0639 into the PC
+1731, 265, end of I/O 6: interrupt
+1996, 1, IRET
+1997, 71, CPU burst
+2068, 1, switch to kernel mode
+2069, 22, context saved
+2091, 1, find vector 4 in memory position 0x0008
+2092, 1, load address 0X0292 into the PC
+2093, 111, execute ISR for device 4
+2204, 1, IRET
+2205, 97, CPU burst
+2302, 1, switch to kernel mode
+2303, 22, context saved
+2325, 1, find vector 4 in memory position 0x0008
+2326, 1, load address 0X0292 into the PC
+2327, 250, end of I/O 4: interrupt
+2577, 1, IRET
+2578, 84, CPU burst
+2662, 1, switch to kernel mode
+2663, 22, context saved
+2685, 1, find vector 7 in memory position 0x000E
+2686, 1, load address 0X00BD into the PC
+2687, 111, execute ISR for device 7
+2798, 1, IRET
+2799, 38, CPU burst
+2837, 1, switch to kernel mode
+2838, 22, context saved
+2860, 1, find vector 7 in memory position 0x000E
+2861, 1, load address 0X00BD into the PC
+2862, 152, end of I/O 7: interrupt
+3014, 1, IRET
+3015, 90, CPU burst
